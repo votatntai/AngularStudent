@@ -37,7 +37,10 @@ namespace StudentManagement
 
             app.UseCors(options =>
             {
-                options.WithOrigins("https://studentmanager-fd6c4.web.app")
+                options.WithOrigins("https://studentmanager-fd6c4.web.app",
+                    "https://www.studentmanager-fd6c4.web.app",
+                    "https://jangular.ml",
+                    "https://www.jangular.ml")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
             });
