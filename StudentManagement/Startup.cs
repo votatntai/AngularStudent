@@ -40,7 +40,8 @@ namespace StudentManagement
                 options.WithOrigins("https://studentmanager-fd6c4.web.app",
                     "https://studentmanager-fd6c4.firebaseapp.com",
                     "https://jangular.ml",
-                    "https://www.jangular.ml")
+                    "https://www.jangular.ml",
+                    "http://localhost:4200")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
             });
